@@ -14,7 +14,7 @@
     <link href="m-styles.min.css" rel="stylesheet">
     <link href="m-forms.min.css" rel="stylesheet">
     <link href="m-buttons.css" rel="stylesheet">
-    <link href="custom.css" rel="stylesheet">
+    <link href="custom2.css" rel="stylesheet">
     <link href="jquery.fancybox-1.3.4.css" rel="stylesheet">  
     
     
@@ -69,7 +69,7 @@
                           <li><a href="#home" class="anchorLink">Home</a></li>
                           <li><a href="#about" class="anchorLink">About</a></li>
                           <li><a href="#skills" class="anchorLink">Skills</a></li>
-                          <li><a href="#contact" class="anchorLink">Contact</a></li>
+                          <li><a href="#contactinfo" class="anchorLink">Contact</a></li>
                         </ul>
                     </div>
 
@@ -107,21 +107,21 @@
 
             <div class="explain">
               <h2>about</h2>
-              <p class="intro">A New Experience. Sleek. Fast. Clean. Responsive. Check out the latest in Bootstrap templates.</p>
+              <p class="intro">A New Experience. Sleek. Fast. Clean. Responsive. Check out the latest in Human Design.</p>
               <div class="row-fluid"> 
               <div class="span4">
                 <h3>About Kush</h3>
-                <p>Boot Metro is a responsive template for designers and developers. Easily Customized, Clean Styling, Technical Support, and much more.</p>
+                <p>Kush is a responsive being for designers and developers. Easily Customized, Clean Styling, Technical Support, and much more.</p>
               </div>
 
           <div class="span4">
             <h3>Intuitive</h3>
-            <p>The design of this bootstrap template is very minimalistic and easy on the eyes. It cuts out all the unnecessary elements and focuses on content. </p>
+            <p>Very minimalistic and easy on the eyes, Kush cuts out all the unnecessary elements and focuses on content. </p>
           </div>
 
           <div class="span4">
             <h3>Skills</h3>
-            <p>Experienced with a little bit of this, and a little bit of that. Kush hopes to develop world class iOS apps soon. </p>
+            <p>Equipped with the world's most advanced operating system. Learning a new skill was never easier </p>
           </div>
          
 
@@ -146,7 +146,7 @@
               <h2>Skills</h2>
 
             <div class="explain">
-              <p class="intro">A New Experience. Sleek. Fast. Clean. Responsive. Check out the latest in Bootstrap templates.</p>
+              <p class="intro">The fastest, most powerful Kush yet</p>
               <div class="row-fluid"> 
               <div class="span4">
                 <h3>Technical</h3>
@@ -178,7 +178,7 @@
 </div>
   <p>CSS</p>
                 <div class="progress progress-danger">
-  <div class="bar" style="width: 30%"></div>
+  <div class="bar" style="width: 32%"></div>
 </div>
 
 
@@ -193,7 +193,7 @@
           <div class="span4">
             <h3>Life</h3>
           
-  <p>Travelling</p>
+  <p>Empathy</p>
                 <div class="progress progress-success">
   <div class="bar" style="width: 90%"></div>
 </div>
@@ -202,11 +202,11 @@
   <div class="bar" style="width: 80%"></div>
 </div>
   <p>Social</p>
-                <div class="progress progress-success progress-striped">
+                <div class="progress progress-success">
   <div class="bar" style="width: 75%"></div>
 </div>
   <p>Language</p>
-                <div class="progress progress-success">
+                <div class="progress progress-success progress-striped">
   <div class="bar" style="width: 70%"></div>
 </div>
 
@@ -228,7 +228,7 @@
 </div>
 <p>Swimming</p>
                 <div class="progress progress-warning progress-striped">
-  <div class="bar" style="width: 40%"></div>
+  <div class="bar" style="width: 44%"></div>
 </div>
 
 <p>Running</p>
@@ -265,8 +265,8 @@
     
     <div>  
     <div class="container">
-      <h2>Contact</h2>
-      <p class="intro">Powered by Google Maps. Show the world where you work.</p>
+      <h2>Did I Mention?</h2>
+      <p class="intro">Kush loves getting around(Hint Hint Berlin, NYC startups )</p>
     </div>
     
       <div class="container hidden-phone" id="map"> </div> <!-- /container -->
@@ -282,6 +282,7 @@
             <div class="span8" >
             
           <div class="span3 offset1" >
+            <a id="contactinfo"></a>
             <p><p><h3>Contact info</h3>
 
               <p>2601 Warring St.<br>
@@ -289,7 +290,10 @@
                 94720
                 Phone: (814) 777-2474<br>
                 Email: kush_a@berkeley.edu<br>
-                Web: mxun.wordpress.com</p>
+                Blog: mxun.wordpress.com<br>
+                <a href=Resume-2.pdf target="_blank">Resume</a><br>
+                <a href=https://github.com/nuxe target="_blank">Github</a>
+              </p>
             
           
           
@@ -347,8 +351,9 @@
    <script type="text/javascript">
   $(document).ready(function(){
     $("#map").gMap({ controls: false,
-                      scrollwheel: true,
+                      scrollwheel: false,
                           draggable: true,
+
                       markers: [{ latitude: 37.8636,
                                   longitude: -122.2479,
                                   icon: { image: "Maps.png",
@@ -711,4 +716,17 @@
                       );
   });
   </script>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38879960-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </html>
